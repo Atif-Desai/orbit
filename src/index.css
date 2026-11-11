@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background: #050a18;
+  color: #e6f1ff;
+  font-family: system-ui, sans-serif;
+}
+.orbit-bg {
+  background:
+    radial-gradient(circle at 20% 10%, rgba(34, 211, 238, 0.12), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(59, 130, 246, 0.15), transparent 45%),
+    #050a18;
+}
